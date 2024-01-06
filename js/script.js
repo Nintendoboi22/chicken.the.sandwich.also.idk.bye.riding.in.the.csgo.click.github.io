@@ -6,7 +6,7 @@ var fps = 15;
 
 var money = 999999999999999999999999999.0;
 var currentCase = "case2";
-var acceptMoneyPerClick = 1000.0;
+var acceptMoneyPerClick = 50.0;
 
 
 
@@ -22,7 +22,7 @@ var popup = true;
 var inventory = {};
 var jackpotInventory = {};
 
-var inventoryMax = 9999999;
+var inventoryMax = 100;
 var inventoryCurrent = 0;
 
 var keyPrice = 0.10;
